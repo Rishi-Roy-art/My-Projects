@@ -1,0 +1,3 @@
+- a numerical value selection bar which will work as the limit of colours to be generated.
+
+- a button with 'Generate' text in it , which will function as a refresh button to generate colours.
