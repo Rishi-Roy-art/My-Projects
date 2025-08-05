@@ -1,0 +1,2 @@
+The notes are beign added in a vertical manner. 
+Make it appear in horizontal manner.

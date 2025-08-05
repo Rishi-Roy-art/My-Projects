@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(135deg, rgb(105, 205, 245), rgb(255, 234, 117));
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: 250px;
+    background-color: #f6ffa8;
+    margin: 20px auto;
+    padding: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#btncreate{
+    border: none;
+    outline: none;
+    background-color: #cad6ff;
+    padding: 5px 9px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+    
+#btncreate:hover{
+    transform: scale(90%);
+}
+
+.content{
+    position: relative;
+}
+
+.inputBox{
+    border: none;
+    background-color: #fff;
+    padding: 6px 6px;
+    width: 90%;
+    height: 100px;
+}
+
+.btnRemove{
+    position:absolute;
+    border: none;
+    outline:none;
+    background-color: #fcaeae;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    bottom: 5px;
+    right: 15px;
+}
+
+.btnRemove:hover{
+    transform: scale(90%);
+}
