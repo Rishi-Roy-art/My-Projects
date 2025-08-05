@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color:rgb(183, 234, 255);
+    font-family:sans-serif;
+}
+
+.Button{
+    background-color:rgb(51, 211, 240);
+    padding: 20px 40px;
+    border-radius: 11px;
+    box-shadow: 0 4px 9px rgba(0,0,0,.5);
+    text-decoration: none;
+    color:black;
+    position: relative;
+    overflow:hidden;
+}
+
+.Button span{
+    position:relative;
+    z-index:1;
+}
+
+.Button::before{
+    content:"";
+    position: absolute;
+    background-color:rgb(103, 103, 218);
+    width: 0;
+    height: 0;
+    left: var(--xPos);
+    top: var(--yPos);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: width 0.6s, height 0.6s;
+}
+
+.Button:hover::before{
+    width: 300px;
+    height: 300px;
+}

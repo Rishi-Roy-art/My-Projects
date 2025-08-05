@@ -1,0 +1,1 @@
+- apply the ripple effect to multiple buttons and align them together.
